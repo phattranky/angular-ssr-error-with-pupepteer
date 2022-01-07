@@ -1,3 +1,12 @@
+# FIX THE ISSUE BY
+
+using the `externalDependencies` and add external library names to it
+
+```
+"bundleDependencies": true,
+"externalDependencies": ["puppeteer", "puppeteer-cluster", "bull", "bull-board"]
+```
+
 # Angular Universal 100% powered by Angular CLI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
@@ -8,9 +17,9 @@ Unlike the [Official Angular Universal starter kit][official-universal-kit] and 
 
 The main other difference is that **you only need [Angular CLI](https://angular.io/cli)** to kick off your next [Angular Universal][angulario-ssr] project:
 
-* `ng build` - Building browser and server bundles ;
-* `ng serve` - Running [ssr dev server][ssr-dev-server] ;
-* `ng serve -c spa` - Running [ssr dev server][ssr-dev-server] with server side rendering disabled of routes only.
+- `ng build` - Building browser and server bundles ;
+- `ng serve` - Running [ssr dev server][ssr-dev-server] ;
+- `ng serve -c spa` - Running [ssr dev server][ssr-dev-server] with server side rendering disabled of routes only.
 
 In other words, this starter kit gives superpower for those who want develop universal application fastly with no pain. Just keep in mind with great power comes [great responsibility (Universal Gotcha's)][universal-gotchas].
 
