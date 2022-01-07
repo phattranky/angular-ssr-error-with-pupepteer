@@ -7,6 +7,12 @@ using the `externalDependencies` and add external library names to it
 "externalDependencies": ["puppeteer", "puppeteer-cluster", "bull", "bull-board"]
 ```
 
+# Stackoverflow thread
+
+```
+https://stackoverflow.com/questions/70622351/the-angular-universal-ssr-cannot-integrate-with-the-external-libraries-like-pu/70622352#70622352
+```
+
 # Angular Universal 100% powered by Angular CLI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
